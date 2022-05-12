@@ -4,7 +4,6 @@ package GorditoUwU.Funciones;
 //boolean esPrimo(int n)
 //que devolverá true si n es primo y false en caso contrario
 
-import javax.swing.*;
 
 public class ejercicio6 {
 
