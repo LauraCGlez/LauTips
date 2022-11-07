@@ -34,7 +34,6 @@ public class ejercicio12 {
             }
             System.out.println("Introduce la edad del alumno: ");
             edad = sc.nextInt(); //VOLVEMOS A LEER
-
         }
 
         media = (double) sumEdades / contador; //CASTEO PARA HACER UNA DIVISION REAL

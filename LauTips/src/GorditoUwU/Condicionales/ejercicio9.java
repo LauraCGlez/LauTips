@@ -54,7 +54,7 @@ public class ejercicio9 {
             hora = 0;
         }
 
-        System.out.println("La hora actual mas 1 segundo es: "+ "[" + hora + ":" + minutos + ":" + segundos + "]");
+        System.out.println("La hora actual más 1 segundo es: "+ "[" + hora + ":" + minutos + ":" + segundos + "]");
 
     }
 

@@ -5,6 +5,7 @@ package GorditoUwU.Condicionales;
 //REALIZAR CON IF ELSE
 //REALIZAR CON SWITCH
 
+import javax.swing.*;
 import java.util.Scanner;
 
 public class ejercicio7 {
@@ -33,7 +34,7 @@ public class ejercicio7 {
 
         //CON SWITCH
 
-        switch (nota){
+        switch (nota) {
             case 0, 1, 2, 3, 4:
                 System.out.println("insuficiente");
                 break;
@@ -44,11 +45,10 @@ public class ejercicio7 {
                 System.out.println("bien");
                 break;
             case 7, 8:
-                System.out.println("norable");
+                System.out.println("notable");
                 break;
             default:
                 System.out.println("sobresaliente");
         }
-
     }
 }

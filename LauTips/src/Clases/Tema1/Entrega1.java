@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Tema1;
 
 import java.util.Scanner;
 
@@ -10,9 +10,9 @@ public class Entrega1 {
 
         System.out.println("Tienes que ir a la biblioteca?");
 
-        String respuesta1 = sn1.next();
+        String respuesta1 = sn1.nextLine();
 
-        boolean biblioteca = true;
+        boolean biblioteca;
 
         if (respuesta1 == "si") {
 
@@ -28,9 +28,9 @@ public class Entrega1 {
 
         System.out.println("Esta lloviendo?");
 
-        String respuesta2 = sn2.next();
+        String respuesta2 = sn2.nextLine();
 
-        boolean lluvia = true;
+        boolean lluvia;
 
         if (respuesta2 == "si") {
 
@@ -46,9 +46,9 @@ public class Entrega1 {
 
         System.out.println("Has terminado las tareas?");
 
-        boolean tareas = true;
+        boolean tareas;
 
-        String respuesta3 = sn3.next();
+        String respuesta3 = sn3.nextLine();
 
         if (respuesta3 == "si") {
 
@@ -58,18 +58,36 @@ public class Entrega1 {
 
             tareas = false;
 
-            if (biblioteca == true){
+        }
 
-                System.out.println("Podemos salir a la calle");
 
-            } else if (biblioteca == false || lluvia == false || tareas == true){
+        boolean salida;
 
-                System.out.println("Podemos salir a la calle");
+        if (biblioteca == true){
 
-            } else {
-                System.out.println("No salimos");
-            }
+            salida = true;
 
+            System.out.println(salida);
+
+            System.out.println("Podemos salir a la calle");
+
+
+
+        } else if (biblioteca == false && (lluvia == true || tareas == false)){
+
+            salida = false;
+
+            System.out.println(salida);
+
+            System.out.println("No podemos salir a la calle");
+
+        } else {
+
+            salida = true;
+
+            System.out.println(salida);
+
+            System.out.println("Podemos salir a la calle");
         }
 
     }

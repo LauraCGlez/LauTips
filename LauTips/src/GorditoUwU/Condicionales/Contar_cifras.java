@@ -1,9 +1,7 @@
 package GorditoUwU.Condicionales;
 
 import javax.swing.JOptionPane;
-
 public class Contar_cifras {
-
     public static void main(String[] args) {
         int num;
         num = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número entre 0 y 99999"));
@@ -21,5 +19,4 @@ public class Contar_cifras {
             JOptionPane.showConfirmDialog(null, "Vuelva a ingresar un número entre 0 y 99999");
         }
     }
-
 }

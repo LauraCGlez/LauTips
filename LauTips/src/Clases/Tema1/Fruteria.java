@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Tema1;
 
 import java.util.Scanner;
 

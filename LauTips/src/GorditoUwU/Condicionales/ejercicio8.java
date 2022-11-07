@@ -31,7 +31,5 @@ public class ejercicio8 {
         } else {
             System.out.println("EL orden es: " + num3 + ", " + num2 + ", " + num1);
         }
-
     }
-
 }

@@ -1,4 +1,4 @@
-package Clases;
+package Clases.Tema1;
 
 import java.util.Scanner;
 
@@ -33,6 +33,11 @@ public class Entrega {
 
         boolean tareas = sn3.nextBoolean();
 
+        boolean salida;
+
+        salida = biblioteca;
+
+        System.out.println(salida);
 
         if (biblioteca == true){
 

@@ -3,7 +3,6 @@ package GorditoUwU.Condicionales;
 import java.util.Scanner;
 
 public class ejercicio10 {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -29,7 +28,5 @@ public class ejercicio10 {
         } else {
             System.out.println("Division de: " + a + " y " + b + " es igual a " + (a/b));
         }
-
     }
-
 }
