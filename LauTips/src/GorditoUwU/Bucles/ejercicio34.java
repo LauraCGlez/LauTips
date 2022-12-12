@@ -27,6 +27,27 @@ package GorditoUwU.Bucles;
 //CBA
 //BA
 //A
-
+/*
 public class ejercicio34 {
-}
+
+    public static void main(String[] args) {
+
+        String abecedario = "ZYWXVUTSRQPONMLKJIHGFEDCBA";
+
+        int contador = 26;
+
+        for (int i = 0; i < contador; i++){
+
+            abecedario.charAt(i);
+
+            contador --;
+
+            System.out.println(abecedario.toCharArray());
+
+            abecedario
+
+        }
+
+    }
+
+}*/

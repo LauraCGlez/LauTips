@@ -25,9 +25,9 @@ public class ejercicio2 {
 
     static void comprendidos(int a, int b){
 
-        int mayor = a > b ? a : b;
+        int mayor = Math.max(a, b);
 
-        int menor = a < b ? a : b;
+        int menor = Math.min(a, b);
 
         for (int i = menor + 1; i < mayor; i++){
 

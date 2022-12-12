@@ -33,7 +33,7 @@ public class ejercicio5 {
 
         } else {
 
-            resultado = fibonacci(a - 1) + fibonacci(a - 2); // RESULTADO ES IGAL A LA SUMA DE FIBONACCI DE LOS DOS INMEDIATOS ANTERIORES
+            resultado = fibonacci(a - 1) + fibonacci(a - 2); // RESULTADO ES IGUAL A LA SUMA DE FIBONACCI DE LOS DOS INMEDIATOS ANTERIORES
 
         }
 

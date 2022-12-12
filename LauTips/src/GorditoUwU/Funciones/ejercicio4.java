@@ -17,15 +17,19 @@ public class ejercicio4 {
 
         int num2 = sc.nextInt();
 
-        System.out.println("El mayor de los numeros es " + maximo(num1, num2));
+        if (num1 == num2){
+            System.out.println("Los numeros no pueden ser iguales");
+        }else {
+
+            System.out.println("El mayor de los numeros es " + maximo(num1, num2));
+
+        }
 
     }
 
     static int maximo(int a, int b){
 
-        int mayor = a > b ? a : b;
-
-        return mayor;
+        return Math.max(a, b);
 
     }
 

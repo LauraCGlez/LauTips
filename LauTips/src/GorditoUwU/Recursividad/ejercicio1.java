@@ -15,13 +15,10 @@ public class ejercicio1 {
         return (result);
 
     }
-
     public static void main(String[] args) {
 
         long solucion = factorial(5);
 
         System.out.println(solucion);
-
     }
-
 }
