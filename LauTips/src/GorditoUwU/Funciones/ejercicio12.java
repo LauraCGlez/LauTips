@@ -1,4 +1,4 @@
-package GorditoUwU.Funciones;
+/*package GorditoUwU.Funciones;
 
 import java.util.Scanner;
 
@@ -22,19 +22,25 @@ public class ejercicio12 {
 
         int dia = sn.nextInt();
 
-        //numHoras(anho, mes, dia);
+        numHoras(anho, mes * , dia * 24);
 
     }
 
-  /*  static int numHoras(int a, int m, int d){
+    static int numHoras(int a, int m, int d){
 
-        int calculo;
+        int resultado;
 
 
-        return calculo;
+
+        if ()
+
+
+        return resultado;
     }
+
+}
+
 */
 
 
 
-}
