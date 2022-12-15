@@ -25,8 +25,6 @@ public class Uso_Tallas {
         private String abreviatura;//VARIABLE ENCAPSULADA DE TIPO STRING
 
     }
-
-
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);

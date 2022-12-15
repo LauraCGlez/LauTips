@@ -19,7 +19,7 @@ public class ejercicio5 {
 
                 tabla2[i][j] = (int) (Math.random()*9+1);
 
-                System.out.println(tabla2[i][j]);
+
 
             }
         }
