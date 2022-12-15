@@ -10,10 +10,11 @@ public class simulacro4 {
         int[] tabla = new int[901];
 
         for (int i = 0; i < tabla.length; i++){
-            Arrays.fill(tabla, i);
-            System.out.println(tabla[i]);
+
+            tabla[i] = i;
+
         }
 
+        System.out.println(Arrays.toString(tabla));
     }
-
 }
