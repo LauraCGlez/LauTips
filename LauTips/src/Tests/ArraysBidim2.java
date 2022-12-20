@@ -20,7 +20,7 @@ public class ArraysBidim2 {
 
         //fOR-EACH
         for (int[] fila:matrix){
-            System.out.println();
+            System.out.print("");
             for (int l: fila){
                 System.out.println(l+" ");
             }
