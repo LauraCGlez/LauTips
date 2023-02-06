@@ -1,4 +1,4 @@
-package Clases.Videoclub;
+package Clases.Videoclub.l_Alquiler;
 
 import Clases.patinete.Cliente;
 import Clases.patinete.Fecha_entrega;

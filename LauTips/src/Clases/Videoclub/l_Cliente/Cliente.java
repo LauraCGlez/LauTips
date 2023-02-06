@@ -1,4 +1,6 @@
-package Clases.Videoclub;
+package Clases.Videoclub.l_Cliente;
+
+import Clases.Videoclub.l_Alquiler.Alquiler_pelicula;
 
 public class Cliente {
 

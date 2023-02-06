@@ -1,4 +1,4 @@
-package Clases.Videoclub;
+package Clases.Videoclub.l_Alquiler;
 
 public class Reporte {
     Alquiler_pelicula alquiler_pelicula;
